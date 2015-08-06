@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8E40E251B71AAD700B72E5B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E40E241B71AAD700B72E5B /* main.swift */; };
+		B8E40E601B7336F600B72E5B /* QoodMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E40E5F1B7336F600B72E5B /* QoodMessages.swift */; };
+		B8E40E621B73377C00B72E5B /* QoodMessageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E40E611B73377C00B72E5B /* QoodMessageDecoder.swift */; };
+		B8E40E651B733B4E00B72E5B /* qood_messages.c in Sources */ = {isa = PBXBuildFile; fileRef = B8E40E631B733B4E00B72E5B /* qood_messages.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8E40E1F1B71AAD700B72E5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B8E40E211B71AAD700B72E5B /* message_decoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = message_decoder; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E40E241B71AAD700B72E5B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B8E40E5F1B7336F600B72E5B /* QoodMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QoodMessages.swift; sourceTree = "<group>"; };
+		B8E40E611B73377C00B72E5B /* QoodMessageDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QoodMessageDecoder.swift; sourceTree = "<group>"; };
+		B8E40E631B733B4E00B72E5B /* qood_messages.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qood_messages.c; sourceTree = "<group>"; };
+		B8E40E641B733B4E00B72E5B /* qood_messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qood_messages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E40E1E1B71AAD700B72E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8E40E181B71AAD700B72E5B = {
+			isa = PBXGroup;
+			children = (
+				B8E40E231B71AAD700B72E5B /* testcswift */,
+				B8E40E221B71AAD700B72E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E40E221B71AAD700B72E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E40E211B71AAD700B72E5B /* message_decoder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E40E231B71AAD700B72E5B /* testcswift */ = {
+			isa = PBXGroup;
+			children = (
+				B8E40E241B71AAD700B72E5B /* main.swift */,
+				B8E40E5F1B7336F600B72E5B /* QoodMessages.swift */,
+				B8E40E631B733B4E00B72E5B /* qood_messages.c */,
+				B8E40E641B733B4E00B72E5B /* qood_messages.h */,
+				B8E40E611B73377C00B72E5B /* QoodMessageDecoder.swift */,
+			);
+			path = testcswift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E40E201B71AAD700B72E5B /* message_decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E40E281B71AAD700B72E5B /* Build configuration list for PBXNativeTarget "message_decoder" */;
+			buildPhases = (
+				B8E40E1D1B71AAD700B72E5B /* Sources */,
+				B8E40E1E1B71AAD700B72E5B /* Frameworks */,
+				B8E40E1F1B71AAD700B72E5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = message_decoder;
+			productName = testcswift;
+			productReference = B8E40E211B71AAD700B72E5B /* message_decoder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E40E191B71AAD700B72E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = peng;
+				TargetAttributes = {
+					B8E40E201B71AAD700B72E5B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B8E40E1C1B71AAD700B72E5B /* Build configuration list for PBXProject "message_decoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8E40E181B71AAD700B72E5B;
+			productRefGroup = B8E40E221B71AAD700B72E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E40E201B71AAD700B72E5B /* message_decoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E40E1D1B71AAD700B72E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E40E251B71AAD700B72E5B /* main.swift in Sources */,
+				B8E40E621B73377C00B72E5B /* QoodMessageDecoder.swift in Sources */,
+				B8E40E651B733B4E00B72E5B /* qood_messages.c in Sources */,
+				B8E40E601B7336F600B72E5B /* QoodMessages.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8E40E261B71AAD700B72E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8E40E271B71AAD700B72E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B8E40E291B71AAD700B72E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = message_decoder;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8E40E2A1B71AAD700B72E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = message_decoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E40E1C1B71AAD700B72E5B /* Build configuration list for PBXProject "message_decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E40E261B71AAD700B72E5B /* Debug */,
+				B8E40E271B71AAD700B72E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E40E281B71AAD700B72E5B /* Build configuration list for PBXNativeTarget "message_decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E40E291B71AAD700B72E5B /* Debug */,
+				B8E40E2A1B71AAD700B72E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E40E191B71AAD700B72E5B /* Project object */;
+}
